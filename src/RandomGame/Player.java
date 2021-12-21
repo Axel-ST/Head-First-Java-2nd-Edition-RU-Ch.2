@@ -7,5 +7,10 @@
 package RandomGame;
 
 public class Player {
-
+   int number = 0;
+   boolean isRight = false;
+   public void guess() {
+      number = (int) (Math.random() * 10);
+      System.out.println("I think, the number is " + number);
+   }
 }
