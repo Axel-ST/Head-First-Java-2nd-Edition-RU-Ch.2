@@ -39,9 +39,9 @@ public class GuessGame {
          
          if (p1.isRight || p2.isRight || p3.isRight) {
             System.out.println("We've got a winner!");
-            System.out.println("Are first player the winner? - " + p1.isRight);
-            System.out.println("Are second player the winner? - " + p2.isRight);
-            System.out.println("Are third player the winner? - " + p3.isRight);
+            System.out.println("Is first player the winner? - " + p1.isRight);
+            System.out.println("Is second player the winner? - " + p2.isRight);
+            System.out.println("Is third player the winner? - " + p3.isRight);
             System.out.println("The end of the game.");
             break;
          } else {
