@@ -6,4 +6,13 @@
 
 package DrumKit;
 
-public class DrumKitTestDrive {}
+public class DrumKitTestDrive {
+   public static void main(String[] args) {
+      DrumKit dk = new DrumKit();
+      dk.playSnare();
+      dk.snare = false;
+      dk.playTopHat();
+      if (dk.snare)
+         dk.playSnare();
+   }
+}
