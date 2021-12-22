@@ -6,4 +6,15 @@
 
 package DrumKit;
 
-public class DrumKit {}
+public class DrumKit {
+   boolean topHat = true;
+   boolean snare = true;
+   
+   public void playSnare() {
+      System.out.println("Bang bang ba-bang");
+   }
+   
+   public void playTopHat() {
+      System.out.println("Ding ding di-ding");
+   }
+}
